@@ -1,0 +1,245 @@
+@media only screen and (max-width: 768px){
+    main{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        background-color: #ededed;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .upper-nav{
+        width: 100%;
+        padding: 2%;
+        position: absolute;
+        top: 0%;
+        height: 15%;   
+        background-color: #FFFFFF;     
+    }
+
+    .singleCampaign-main{
+        width: 100%;
+        padding: 2%;
+        position: absolute;
+        top: 15%;
+        height: 85%;
+    }
+
+    .camp-title{
+        position: absolute;
+        top: 0%;
+        left: 27% !important;
+    }
+
+    .campaignImage{
+        position: absolute;
+        width: 96%;
+        height: 40%;
+        left: 2%;
+        top: 7%;
+        border-radius: 10px;
+    }
+
+    .campaignStory{
+        position: absolute;
+        width: 96%;
+        left: 2%;
+        top: 49%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%;
+        color: #4F4F4F;
+    }
+
+    .deets{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        padding: 2%;
+        position: absolute;
+        margin: 0%;
+        width: 96%;
+        height: 82px;
+        left: 2%;
+        top: 59%;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .progBar{
+        position: absolute;
+        top: 40% !important;
+    }
+
+    .but{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        position: absolute;
+        width: 96%;
+        height: 73.26px;
+        left: 2%;
+        top: 70%;
+        border-radius: 6px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 2% 0px;
+    }
+
+    .shareButts{
+        position: absolute;
+        left: 2%;
+        top: 84%;
+        width: 96%;
+        padding: 2%;
+        padding-left: 20%;
+        background-color: #fff;
+        align-items: center;
+    }
+
+    .butHr{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    
+    .singleCampaign-main{
+        width: 100%;
+        position: relative;
+        height: 85%;
+        top: 15%;
+        padding: 2%;
+        background-color: #ededed;
+    }
+
+    .camp-title{
+        position: absolute;
+        width: 636px;
+        height: 72px;
+        left: 102px;
+        top: 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 72px;
+        color: #000000;
+    }
+
+    .campaignImage{
+        position: absolute;
+        width: 520px;
+        height: 339px;
+        left: 100px;
+        top: 90px;
+        border-radius: 10px;
+    }
+
+    .campaignStory{
+        position: absolute;
+        width: 520px;
+        left: 100px;
+        top: 480px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: #4F4F4F;
+    }
+
+    .deets{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        padding: 30px;
+        position: absolute;
+        width: 470px;
+        height: 165px;
+        left: 870px;
+        top: 10px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+    .rcvd{
+        position: absolute;       
+        top: 30px;    
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #4f4f4f;
+    }
+    .rcvdSpan{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;    
+        color: #333333;
+    }
+
+    .donors{
+        position: absolute;
+        top: 110px;
+    }
+
+    .progBar{
+        position: absolute;
+        height: 8px;
+        top: 85px;  
+        background: rgba(72, 153, 247, 0.2);
+        border-radius: 20px;
+    }
+
+    .but{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 18px;
+        position: absolute;
+        width: 470px;
+        height: 73.26px;
+        left: 870px;
+        top: 185px;
+        border-radius: 6px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }
+
+    .shareButts{
+        position: absolute;
+        left: 870px;
+        top: 350px;
+        width: 470px;
+        padding: 10px;
+        padding-left: 135px;
+        background-color: #fff;
+        align-items: center;
+    }
+
+    .butHr{
+        position: absolute;
+        width: 470px;
+        /* height: 0px; */
+        left: 870px;
+        top: 300px;
+        /* border: 4px solid #cccccc88; */
+    }
+
+    /* .strHr{
+        position: absolute;
+        left: 100px;
+        top: 550px;
+        width: 520px;
+    } */
+}

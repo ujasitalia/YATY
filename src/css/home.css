@@ -1,0 +1,837 @@
+@media only screen and (max-width: 768px){
+    .home{
+        margin: 0;
+        position: relative;    
+        height: 3020px;
+        width: 100%;
+        overflow: hidden;
+    }
+    a:link, a:visited{
+        text-decoration: none;
+    }
+    .rect6{
+        position: absolute;
+        display: flex;
+        height: 600px;
+        width: 96%;
+        left: 0px;
+        top: 0px;
+        padding: 2%;
+        background: #ffffff;
+        overflow: hidden;
+    }
+
+    .rect7{
+        width: 96%;
+        top: 610px;
+        height: 1150px;
+        position: absolute;
+        left: 0%;
+        padding: 2%;
+        background: #F5F5F5;
+        overflow: hidden;
+    }
+
+    .title{
+        color:#4899F7;
+        position: absolute;
+        top: 2%;
+        left: 42% !important;  
+        text-decoration: none !important; 
+        margin: 0%;
+        padding: 0%;
+        border: 0%;        
+    } 
+    .discover{
+        text-decoration: none !important;
+        position: absolute;
+        left: 12%;
+        top: 7%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%;
+        z-index: 1;
+        /* line-height: 29px; */
+        color: #000000;
+    }
+
+    .app-signup{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .app-modal-image{
+        width: 100%;
+        height: 12vh;
+        object-fit: contain;
+    }
+
+
+    .start{
+        display: none;
+    }
+    .smob{
+        position: absolute;
+        left: 60%;
+        top: 7%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%; 
+        text-decoration: none !important;  
+        color: #000;
+        z-index: 1;     
+    }
+    .section-txt{
+        position: absolute;        
+        /* width: 651px;
+        height: 216px; */
+        width: 80%;
+        left: 10%;
+        top: 20%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 150%;
+        z-index: 1;
+        color: #000000;
+    }
+    .section-play-vector{
+        position: absolute;
+        z-index: 1;
+        top: 60%; 
+        left: 50%;  
+        font-size: larger; 
+    }
+    .section-how-to{
+        position: absolute;
+        z-index: 1;
+        left: 20%;
+        top: 63%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 150%;        
+        color: #000000;
+    }
+    .working-cause-1{
+        position: absolute;
+        width: 98%;
+        left: 3.5%;
+        height: 80%;
+        object-fit: contain;        
+        top: 15%;
+        z-index: 0;
+        background-image: url(../working-cause-1.png);
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
+
+    .easysteps{
+        position: absolute;
+        padding: 0%;
+        margin:0%;
+        left: 40%;
+        top: 3%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 150%;
+        color: #4899F7;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        position: absolute;
+        width: 93.5%;        
+        top: 8%;
+        left: 3%;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 287px;
+        /* top: 0px; */
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 4px 6px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        flex: none;
+        order: 0;
+        /* align-self: stretch; */
+        flex-grow: 1;
+        margin: 0px 0 5%;
+    }
+
+    .inside{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 7%;
+        background: #F5F5F5;
+        border-radius: 20px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        /* margin: 20px 0px; */
+    }
+
+    .cHeading{
+        position: absolute;
+        width: 158px;
+        height: 36px;
+        top: 152px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .cText{
+        position: absolute;
+        width: 235px;
+        height: 38px;
+        top: 200px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #4F4F4F;
+    }
+
+    .stepsText{
+        position: absolute;
+        top: 90%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%;
+        line-height: 36px;
+        text-align: center;
+        color: #333333;
+    }
+    .frame4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        position: absolute;
+        width: 100%;
+        height: 650px;
+        /* left: 40%; */
+        top: 57.5%;
+        /* background: #F5F5F5; */
+    }
+    .frameTitle{
+        position: absolute;
+        align-self: center;
+        top: 8%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 150%;
+        /* line-height: 72px; */
+        color: #4899F7;
+    }
+    .frameText{
+        position: absolute;        
+        align-self: center;    
+        top: 15%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%;
+        line-height: 100%;
+        text-align: center;
+        /* Gray 1 */
+        color: #333333;
+    }
+    .grey-box{
+        position: absolute;
+        width: 96%;
+        padding: 0%;
+        height: 250px;
+        align-self: center;
+        top: 25%;
+        background: #F2F2F2;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    
+    .left{
+        position: absolute;
+        align-self: center;       
+        top: 69%;
+        left: 2%;
+        width: 97%;
+        font-family: Inter;
+        font-size: 100%;
+        line-height: 100%;
+        text-align: justify;        
+        color: #333333;        
+        flex: none;
+        order: 0;
+        flex-grow: 1;        
+    }
+    .right{  
+        position: absolute;
+        align-self: center;   
+        top: 84%;
+        left: 2%;
+        width: 97%;
+        font-family: Inter;
+        font-size: 100%;
+        line-height: 100%;
+        text-align: justify;        
+        color: #333333;        
+        flex: none;
+        order: 0;
+        flex-grow: 1;        
+    }
+
+    .rect18{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        padding: 2%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        top: 79.5%;
+        /* left: 40px; */
+        background: #ffffff;
+    }
+    .successStories{
+        position: absolute;
+        top: 10%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 150%;
+        color: #4899F7;
+        padding-bottom: 0;
+    }
+
+    .csr{
+        position: relative;
+        width: 100%;
+        height: 75%;
+        margin: 0;
+        top: 25%;
+    }
+
+    .csr a{  
+        display: none !important;      
+        font-size: 80% !important;
+        text-decoration: none !important;
+        padding: 1% !important;
+    }
+
+    .bottom{
+        position: absolute;
+        top: 90%;
+        display: flex;
+        height: 230px;
+        width: 100%;
+        padding: 2%;
+        justify-content: center;
+        align-items: center;
+    }
+    .botText{
+        position: absolute;
+        top: 40%;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 140%;
+        color: #4F4F4F;
+    }
+
+    .bottom-button{
+        position: absolute;    /* height: 29px; */
+        top: 150px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 130%;
+        line-height: 40px;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+
+    .footer{
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 2970px;
+        background: #222222;
+    }
+
+    .footer-text{
+        letter-spacing: 2px;
+        position: absolute;
+        font-size: 100%;
+        left: 3%;
+        top: 30%;
+        color: #4899F7;
+    }
+
+    .c-w-l{
+        color: white;
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        font-size: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 768px){
+    .home{
+        margin: 0;
+        position: relative;    
+        height: 3170px;
+    }
+    .rect6{
+        position: absolute;
+        height: 900px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+    }
+
+    .rect7{
+        position: absolute;
+        left: 0px;
+        background: #F5F5F5;
+    }
+
+    .title{
+        color:black;
+        position: absolute;
+        width: 102.25px;
+        height: 25.49px;
+        left: 100px;
+        top: 50px;
+        text-decoration: none;    
+    }
+    .discover{
+        text-decoration: none;
+        position: absolute;
+        width: 99px;
+        height: 29px;
+        left: 880px;
+        top: 50px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+        color: #000000;
+    }
+    .app-signup{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .app-modal-image{
+        width: 100%;
+        height: 12vh;
+        object-fit: contain;
+    }
+
+    .app-login-container{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 177px;
+        /* height: 29px; */
+        left: 1010px;
+        top: 50px;
+        font-family: Inter !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 24px !important;
+        /* line-height: 29px; */
+        color: #000000;
+        text-decoration: none; 
+    }
+
+    .logout{
+        position: absolute;
+        width: 100%;
+        top: 43px;
+        left: 1020px;
+        font-size: 20px !important;
+    }
+    .smob{
+        display: none;
+    }
+    .start{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px;
+        position: absolute;
+        width: 240px;
+        height: 53px;
+        left: 1200px;
+        top: 37px;
+        background: #4899F7;
+        border-radius: 4px;
+    }
+    .section-txt{
+        position: absolute;
+        width: 651px;
+        height: 216px;
+        left: 100px;
+        top: 266px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 72px;
+        color: #000000;
+    }
+    .section-play-vector{
+        position: absolute;
+        left: 100px;
+        top: 500.5px;    
+    }
+    .section-how-to{
+        position: absolute;
+        width: 296px;
+        height: 29px;
+        left: 140px;
+        top: 500.5px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+        color: #000000;
+    }
+
+    .working-cause-1{
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        left: 791px;
+        top: 160px;
+        background-image: url(../working-cause-1.png);
+    }
+
+    .easysteps{
+        position: absolute;
+        width: 264px;
+        height: 72px;
+        left: 630px;
+        top: 760px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 72px;
+        color: #4899F7;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        position: absolute;
+        width: 1140px;
+        height: 278px;
+        left: 60px;
+        top: 910px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        width: 337.33px;
+        height: 278px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 4px 6px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+        margin: 0px 64px;
+    }
+
+    .inside{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        /* left: 118.67px; */
+        top: 20px;
+        margin: 0;
+        background: #F5F5F5;
+        border-radius: 20px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 20px 0px;
+    }
+
+    .cHeading{
+        position: absolute;
+        width: 158px;
+        height: 36px;
+        top: 152px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .cText{
+        position: absolute;
+        width: 235px;
+        height: 38px;
+        top: 200px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #4F4F4F;
+    }
+
+    .stepsText{
+        position: absolute;
+        width: 890px;
+        height: 36px;
+        left: 275px;
+        top: 1300px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #333333;
+    }
+    .frame4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+        position: absolute;
+        width: 1440px;
+        height: 800px;
+        left: 40px;
+        top: 1410px;
+        background: #FFFFFF;
+    }
+    .frameTitle{
+        position: absolute;
+        width: 316px;
+        height: 72px;
+        align-self: center;
+        /* left: 562px; */
+        top: 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 72px;
+        color: #4899F7;
+    }
+    .frameText{
+        position: absolute;
+        /* width: 890px; */
+        align-self: center;    
+        /* left: 275px; */
+        top: 100px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        /* Gray 1 */
+        color: #333333;
+    }
+    .grey-box{
+        position: absolute;
+        width: 1100px;
+        height: 350px;
+        align-self: center;
+        /* left: 200px; */
+        top: 135px;
+        background: #F2F2F2;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 50px 0px;
+    }
+    .frame-text-box{
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        position: absolute;
+        width: 498px;
+        /* height: 144px; */
+        left: 130px;
+        top: 570px;
+        font-family: Inter;
+        font-size: 25px;
+        line-height: 36px;
+        text-align: justify;
+        /* Gray 1 */
+        color: #333333;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        margin: 0px 39px;
+    }
+    .right{     
+        left: 739.5px;
+    }
+
+    .rect18{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: aqua;
+        width: 1440px;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+        top: 2220px;
+        left: 40px;
+        background: #ffffff;
+    }
+    .successStories{
+        position: absolute;
+        /* width: 421px; */
+        height: 72px;
+        /* left: 100px; */
+        top: 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 72px;
+        /* identical to box height */
+        color: #4899F7;
+        padding-bottom: 0;
+    }
+
+    .csr{
+        position: absolute;
+        width: 50%;
+        height: 80%;
+        margin: 0;
+        top: 100px;
+    }
+
+    .bottom{
+        position: absolute;
+        top: 2850px;
+        display: flex;
+        height: 230px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .botText{
+        position: absolute;
+        /* width: 657px;
+        height: 72px; */
+        /* left: 391px; */
+        top: 55px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 72px;
+        color: #4F4F4F;
+    }
+
+    .bottom-button{
+        position: absolute;    /* height: 29px; */
+        top: 150px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+
+    .footer{
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 3090px;
+        background: #222222;
+    }
+
+    .footer-text{
+        letter-spacing: 2px;
+        position: absolute;
+        font-size: 150%;
+        left: 100px;
+        top: 35px;
+        color: #4899F7;
+    }
+
+    .c-w-l{
+        color: white;
+        position: absolute;
+        top: 35px;
+        right: 5%;
+        font-size: large;
+    }
+}
+
